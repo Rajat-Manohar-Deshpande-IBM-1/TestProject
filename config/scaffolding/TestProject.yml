@@ -7,6 +7,11 @@ packages:
   gitUrl: https://github.com/Rajat-Manohar-Deshpande-IBM-1
   gitUsername: Rajat-Manohar-Deshpande-IBM-1
   gitBranch: main
+- name: EmployeePayroll
+  gitServerName: Test
+  gitUrl: https://github.com/rahul-singh-IBM-68
+  gitUsername: Rajat-Manohar-Deshpande-IBM-1
+  gitBranch: main
 services:
 - serviceName: project.test.integrations:simpleOne
   packages:
