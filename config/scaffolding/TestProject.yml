@@ -7,3 +7,20 @@ packages:
   gitUrl: https://github.com/Rajat-Manohar-Deshpande-IBM-1
   gitUsername: Rajat-Manohar-Deshpande-IBM-1
   gitBranch: main
+services:
+- serviceName: project.test.integrations:simpleOne
+  packages:
+  - name: TestProject
+    version: "1.0"
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2044
+- serviceName: EmployeePayroll.services:calculateSalary
+  packages:
+  - name: TestProject
+    version: "1.0"
+- serviceName: EmployeePayroll.services:calculateMonthlySalary
+  packages:
+  - name: TestProject
+    version: "1.0"
