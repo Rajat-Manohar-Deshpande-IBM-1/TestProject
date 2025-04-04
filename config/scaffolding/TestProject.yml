@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: TestProject
+  gitServerName: Test
+  gitUrl: https://github.com/Rajat-Manohar-Deshpande-IBM-1
+  gitUsername: Rajat-Manohar-Deshpande-IBM-1
+  gitBranch: main
